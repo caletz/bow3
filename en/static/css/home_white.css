@@ -1,0 +1,349 @@
+section {
+    display: block;
+    padding: 60px 10% 60px 10%;
+}
+	
+
+section p {
+    max-width: 600px;
+}
+
+h1 {
+	font-size: 44px;
+	font-weight: 400;
+	color: #FFFFFF;
+	line-height: normal;
+	text-align: center;
+	font-family: ‘Metrophobic’, Arial, serif; font-weight: 400;
+}
+h2 {
+	font-size: 39px;
+	font-weight: 300;
+	color: #48526e;
+	margin: 20px 0;
+	line-height: normal;	
+	font-family: 'Open Sans', sans-serif;
+}
+
+h3 {
+	
+    margin: 20px 0;
+    line-height: 1;
+}
+
+p {
+    font-size: 25px;
+    color: #848484;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    line-height: 1.5;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+
+section#logo {
+	background-color: #F0F0F0; text-align: center; padding-bottom: 0; }
+	#logo img { margin-top: -20px;  width: 200px; }
+
+section#intro {  
+	background: url('../img/home/top.jpg') bottom -17% center no-repeat ;
+	background-size: 950px auto;
+	height: 717px; 
+	background-color: #F0F0F0;
+	text-align:center; 
+	border-style: solid;
+    border-width: 0px 1px 1px 1px;
+	border-color:#d4d4d4;
+	}
+	
+    #intro p { text-align:center; margin-left: auto; margin-right: auto;}
+
+
+section#segunda { 
+	 
+	background: url('../img/home/segunda@2x.jpg') bottom -7% center no-repeat ;
+	background-size: 700px 660px;
+	height: 810px; 
+	background-color: rgb(252,252,252);
+	text-align:center; 
+	}
+    #segunda p { max-width: 750px; margin-left: auto; margin-right: auto;}
+
+	
+section#tercera{ 
+	background: url('../img/home/tercera@2x.jpg')  right no-repeat;
+	background-size: 1500px auto; 
+	height: 720px;
+	text-align:left; 
+	margin-left: -7%;
+	background-color:#f3f3f3;
+	text-align:left; 
+	border-style: solid;
+    border-width: 1px 1px 1px 1px;
+	border-color:#d4d4d4;
+	
+	}
+	 #tercera p { max-width: 750px; margin-left: -1,2%;}
+
+	 #tercera h2 { max-width: 650px; margin-left: -1,2%;
+	}
+
+section#cuarta { 
+ 	background: url('../img/home/cuarta@2x.jpg') bottom 5% center no-repeat ;
+	background-size: 850px 535px;
+	height: 850px; 
+	background-color: rgb(252,252,252);
+	text-align:center;    
+
+	}
+	#cuarta p { max-width: 650px; margin-left: auto; margin-right: auto;}
+
+
+
+
+
+
+section#humandata,
+section#press {
+    background: #f3f3f3;
+    color: rgb(187,187,187);
+
+}
+
+section#humandata {
+	height: 400px;
+	background: #f3f3f3;
+	background-size: 70%;
+	padding: 140px;
+}
+
+    #humandata h2 {
+	color: #191919;
+	text-align: center;
+	
+}
+    #press p,
+    #humandata p {
+	color: rgb(187,187,187);
+	text-align: center;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+section#press {
+    border-top: 1px solid #b7b7b7;
+    background-color: black;
+    text-align: center;
+    padding-bottom: 90px;
+}
+    #press h2 { font-size: 24px; color: rgb(131,131,131); margin-bottom: 5px;}
+    #press ul { list-style: none; display: inline-block; }
+    #press li { display: inline-block; width: 110px; }
+    #press img { opacity: .3; width: 100%;}
+    #press img:hover { opacity: .8; }
+
+
+
+#citiesbutton {
+	margin-left: auto;
+	margin-right: auto;
+    display: block;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 400;
+    border: 3px solid #e9026c;
+    color: #e9026c;
+    padding: 22px 20px 22px 20px;
+    border-radius: 50px;
+    width: 300px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
+    -webkit-appearance: none;
+    -webkit-font-smoothing: antialiased;
+	
+} #citiesbutton:hover {
+    background: #e9026c;
+    color: #efefef;
+}
+
+
+
+
+@media screen and (max-width: 1400px) {
+   section {
+	padding-top: 60px;
+	padding-right: 5%;
+	padding-bottom: 60px;
+	padding-left: 5%;
+	
+}
+
+section#tercera{ 
+	background: url('../img/home/tercera@2x.jpg') right no-repeat;
+	background-size: cover; 
+	height: 820px;
+	text-align:left; 
+	margin-left: 0%;
+	}
+	 #tercera p { max-width: 650px; margin-left: -1,2%;
+	}
+	 #tercera h2 { max-width: 650px; margin-left: -1,2%;
+	}
+
+
+ 
+}
+
+@media screen and (max-width: 1300px) {
+   section {
+	padding: 60px;
+}
+
+   section#intro {
+	   
+	background: url('../img/home/top.jpg') bottom -27% center no-repeat ;
+	background-size: 750px auto;
+	height: 617px; 
+	background-color: #F0F0F0;
+	text-align:center; 
+	}
+     
+	section#logo {}
+        #logo img { width: 150px; height:52px;}
+		
+	section#tercera{ 
+	background: url('../img/home/tercera@2x.jpg') left -10% center no-repeat;
+	background-size: 1300px auto; 
+	height: 720px;
+	text-align:left;
+	background-color: #f3f3f3;
+	
+	}
+	 #tercera p { max-width: 750px; margin-left: -2,2%;
+	}
+
+		
+
+		
+
+}
+
+@media screen and (max-width: 1024px) {
+    section { padding: 60px 5% 60px 5%; }
+	section#segunda {
+	   
+	background: url('../img/home/segunda@2x.jpg') bottom -17% center no-repeat ;
+	background-size: 600px 560px;
+	height: 697px; 
+	background-color: rgb(252,252,252);
+	text-align:center; 
+
+
+    section#cuarta {}
+        #cuarta img { width: 600px;  height: auto;}
+   
+
+
+	section#logo {}
+        #logo img { width: 100px; height:35px;}
+
+    section#press {}
+        #press h2 { font-size: 18px; }
+		#press h2-1 { font-size: 18px; }
+        #press li { width: 100px;}
+        #press img { width: 100%;}
+
+	
+	    #downloadbutton {
+        margin: 0 auto;
+        display: inline-block;
+        vertical-align:top;
+		padding-top: 150px;
+        float: none;
+        
+    }
+	
+}
+
+
+@media screen and (max-width: 768px) {
+    section { padding: 30px 20px;}
+    section h1 { font-size: 28px; margin-top: 90px; }
+    section h2 { font-size: 22px; }
+	section h2-1 { font-size: 22px; }
+    section p { font-size: 16px; width: auto;}
+
+
+    #homeLogo { position: absolute; top: 35px; left: 27%;}
+	
+ 	section#intro {
+	   
+	background: url('../img/home/top.jpg') bottom 7% center no-repeat ;
+	background-size: 350px auto;
+	height: 457px; 
+	background-color: #F0F0F0;
+	text-align:center; 
+	}
+	section#segunda {
+	background-size: 420px 401px;
+	height: 565px; 
+	background-color: rgb(252,252,252);
+	text-align:center; 
+
+}
+
+    section#tercera { 
+	background-size: 990px auto; 
+	height: 520px;
+	background-position: 22% 65%;
+	text-align:center;
+	 }
+	
+	
+
+    section#cuarta { 
+	background: url('../img/home/cuarta@2x.jpg') bottom 9% center no-repeat;
+	background-size: 600px auto; 
+	height: 700px; }
+    section#cuarta { text-align: center; 
+
+}
+	
+	h5 {
+    font-size: 16px;
+    color: #9D9D9D;
+	line-height: 1.2;
+
+	text-align:center;
+}
+    #buttons {
+        margin: 0 auto;
+        text-align: center;
+        width: 100%;
+	
+    }
+
+    #downloadbutton {
+        margin: 0 auto;
+        display: inline-block;
+        vertical-align:top;
+		padding-top: 250px;
+        float: none;
+        
+    }
+
+ 
+
+    #citiesbutton {
+        font-size: 18px;
+        padding: 16px 14px 16px 14px;
+        width: 180px;
+        text-align: center;
+        margin: 0 auto 0 auto;
+       
+    }
+}
