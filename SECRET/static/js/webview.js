@@ -12,3 +12,16 @@ clean = function() {
 };
 
 clean();
+
+$(document).ready(function () {
+
+
+
+    $('.scrollup').click(function () {
+        $("html, body").animate({
+            scrollTop: 780
+        }, 620);
+        return false;
+    });
+
+});
