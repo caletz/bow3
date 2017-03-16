@@ -159,11 +159,13 @@ section#segunda {
 	 
 	background: url('../img/home/segunda@2x.jpg') bottom -7% center no-repeat ;
 	background-size: 700px 660px;
-	height: 780px; 
+	height: 652px; 
 	background-color: rgb(252,252,252);
 	text-align:center; 
 	}
-    #segunda p { max-width: 750px; margin-left: auto; margin-right: auto;}
+	    #segunda h5 { max-width: 750px; margin-top:-110px; margin-left: auto; margin-right: auto;}
+
+    #segunda p { max-width: 750px;  margin-left: auto; margin-right: auto;}
 
 	
 section#tercera{ 
@@ -276,9 +278,12 @@ section#tercera{
 	   
 	background: url('../img/home/segunda@2x.jpg') bottom -17% center no-repeat ;
 	background-size: 600px 560px;
-	height: 647px; 
+	height: 567px; 
 	background-color: rgb(252,252,252);
 	text-align:center; }
+	
+		    #segunda h5 { max-width: 650px; margin-top:-109px; margin-left: auto; margin-right: auto;}
+
 
 
     section#cuarta {}
@@ -335,11 +340,15 @@ section#tercera{
 	}
 	section#segunda {
 	background-size: 390px 377px;
-	height: 425px; 
+	height: 385px; 
 	background-color: rgb(252,252,252);
 	text-align:center; 
-
+	
 }
+
+		    #segunda h5 { max-width: 350px; margin-top:-69px; margin-left: auto; margin-right: auto;}
+
+
 
     section#tercera { 
 	background-size: 990px auto; 
