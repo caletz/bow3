@@ -1330,18 +1330,21 @@ a.custom-logo-link img {
 }
 .widget {
 	margin: 0 0 1.5em;
-	word-wrap: break-word
+	word-wrap: break-word;
+	
 }
 .widget select {
-	max-width: 100%
+	max-width: 100%;
 }
 .widget:not(.widget_text) ul {
 	margin-left: 0;
 	padding: 0;
 	list-style: none
+	
 }
 .widget a {
-	color: #80654e
+	color: #80654e;
+
 }
 .widget a:hover, .widget a:active, .widget a:focus {
 	opacity: 1;
