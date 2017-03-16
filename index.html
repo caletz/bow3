@@ -1,31 +1,60 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">  
-    <meta charset="utf-8">
-    <title>Bow3 Games</title>
-    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1, user-scalable=0">
-    <link rel="stylesheet" href="style_v7.css">
- 	<link rel="shortcut icon" type="image/x-icon" href="favicon.png">
-  </head>
-  <body>
-    <header class="l-header"></header>
-    
-    <div class="social">
-      <div class="l-constrained">
-        
-		  <!-- News Item 1 -->
-		  <p><img src="logo-2.jpg" alt="" /></p>
-		
-		  <!-- End News Item 1 -->
-       
-      </div>
-    </div>
+<!doctype html><head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,width=device-width,height=device-height,target-densitydpi=device-dpi,user-scalable=yes" />
+    <title>Bow3 Games - An indie game studio in Santiago, Chile.</title>
+    <meta name="description" content="An indie game studio in Santiago, Chile." />
 
-    <div class="l-footer">
-      <div class="l-constrained">
-        <small class="zeta">2016 - Bow3 Games, All Rights Reserved.</small>
-      </div>
-    </div>
-  </body>
+<script>
+
+/*
+Browser Language Redirect script- By JavaScript Kit
+For this and over 400+ free scripts, visit http://www.javascriptkit.com
+This notice must stay intact
+*/
+
+//Enter ISO 639-2 letter Language codes to detect (see: http://www.w3.org/WAI/ER/IG/ert/iso639.htm):
+var langcodes=new Array("es", "en", "default")
+
+//Enter corresponding redirect URLs (last one is for default URL):
+var langredirects=new Array("http://bow3.com/es", "http://bow3.com/en", "http://bow3.com/es")
+
+var languageinfo=navigator.language? navigator.language : navigator.userLanguage
+var gotodefault=1
+
+function redirectpage(dest){
+if (window.location.replace)
+window.location.replace(dest)
+else
+window.location=dest
+}
+
+for (i=0;i<langcodes.length-1;i++){
+if (languageinfo.substr(0,2)==langcodes[i]){
+redirectpage(langredirects[i])
+gotodefault=0
+break
+}
+}
+
+if (gotodefault)
+redirectpage(langredirects[langcodes.length-1])
+
+
+</script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-93715544-3', 'auto');
+  ga('send', 'pageview');
+
+</script>
+ 
+ 
+</body>
+
 </html>
